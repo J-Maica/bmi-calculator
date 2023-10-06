@@ -1,0 +1,112 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    color: #FFF;
+    text-align: center;
+    font-family: Abril Fatface;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar-brand:hover {
+    color: #FFF
+}
+
+.title span:nth-child(1){
+    color: #FFF;
+    font-family: Abyssinica SIL;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title span:nth-last-child(1){
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mainCont {
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.calCont {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(182, 181, 181, 0.22) 0px 15px 12px;}
+
+.calHeader {
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+}
+
+.calHeader span {
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cont {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.form {
+    /* background: #D9D9D9; */
+    margin-top: 5%;
+    width: 50%;
+    height: 200px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.imgCont img{
+    width: 435px;
+    height: 642px;
+}
+
+.sideCont{
+    margin-left: -30px;
+}
+
+.sideCont h5 {   
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 70px;
+    }
+    .title span:nth-child(1){
+        font-size: 30px;
+    }
+
+}
